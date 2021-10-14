@@ -1,0 +1,20 @@
+{
+  "name": "quick-and-dirty-encrypted-m3u8-downloader",
+  "version": "0.0.1",
+  "description": "快速粗糙的加密 m3u8 下载工具",
+  "main": "./bin/index.mjs",
+  "scripts": {
+    "test": "echo \"逃避可耻但是有用\\n✅ no test\""
+  },
+  "bin": {
+    "qademd": "./bin/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "got": "^11.8.2",
+    "m3u8-parser": "^4.7.0",
+    "progress": "^2.0.3"
+  }
+}
