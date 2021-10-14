@@ -1,4 +1,4 @@
-
+#!env node
 import crypto from 'crypto'
 import got from 'got'
 import fs from 'fs'
